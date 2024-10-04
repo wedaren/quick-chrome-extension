@@ -6,7 +6,16 @@ interface Props {
 }
 
 const Options: React.FC<Props> = ({ title }: Props) => {
-  return <div className="OptionsContainer">{title} Page</div>;
+  return (
+    <iframe
+      src="https://chat.openai.com/"
+      id="browserSite"
+      title="openai"
+      height="100%"
+      width="100%"
+      allow="camera; clipboard-write; fullscreen; microphone; geolocation"
+    />
+  );
 };
 
 export default Options;
