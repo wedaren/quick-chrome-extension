@@ -51,8 +51,8 @@ const Main: React.FC<Props> = ({ title }: Props) => {
         } else {
           console.log('Rules updated successfully');
           if (iframe) {
-            // iframe.src = 'https://claude.2233.ai/auth0?secret=62696875776f726b746f676574686572a71a34056df65dff73d54e33a90c22883bca430c2eba5cb75d68f4237a40acf53aa0f8fc8516ca305081aaa651bc243fd24d713e81a673332a628bfe60eba0c8302aa2c65a7dcbca003d1e686f200c47fde556849801a662d2adc3f9d2148e680720c48b9982e912e2ba3eaee3b47f4e';
-            iframe.src = 'https://www.google.com/';
+            // iframe.src = 'https://chatgpt.com';
+            iframe.src = 'https://claude.2233.ai/auth0?secret=62696875776f726b746f676574686572a71a34056df65dff73d54e33a90c22883bca430c2eba5cb75d68f4237a40acf53aa0f8fc8516ca305081aaa651bc243fd24d713e81a673332a628bfe60eba0c8302aa2c65a7dcbca003d1e686f200c47fde556849801a662d2adc3f9d2148e680720c48b9982e912e2ba3eaee3b47f4e';
           }
         }
       }
